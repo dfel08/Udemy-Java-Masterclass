@@ -24,7 +24,7 @@ public class Main {
 		System.out.println("Short Min Value = " +myMinShortValue);
 		System.out.println("Short Max Value = " + myMaxShortValue);
 
-//		A byte occupies 8 bits. A short, 16 bits. An integer, 32 bits
+//		A byte occupies 8 bits. A short, 16 bits. An integer, 32 bits. A long, 64 bits.
 
 		long myLongValue = 100L;
 		long myMinLongValue = Long.MIN_VALUE;
