@@ -19,27 +19,36 @@ public class Main {
     	System.out.println("Byte Min Value = " +myMinByteValue);
     	System.out.println("Byte Max Value = " + myMaxByteValue);
 
+    	byte myMaxByteTest = 127;
+
     	short myMinShortValue = Short.MIN_VALUE;
 		short myMaxShortValue = Short.MAX_VALUE;
 		System.out.println("Short Min Value = " +myMinShortValue);
 		System.out.println("Short Max Value = " + myMaxShortValue);
 
-//		A byte occupies 8 bits. A short, 16 bits. An integer, 32 bits. A long, 64 bits.
+		short ShortLiteralValue = 32767;
+
+		//A byte occupies 8 bits. A short, 16 bits. An integer, 32 bits. A long, 64 bits.
 
 		long myLongValue = 100L;
 		long myMinLongValue = Long.MIN_VALUE;
 		long myMaxLongValue = Long.MAX_VALUE;
 		System.out.println("Long Min Value = " +myMinLongValue);
 		System.out.println("Long Max Value = " + myMaxLongValue);
+
+		//long myMaxLongTest = 9223372036854775807
+
 		long bigLongLiteralValue = 2_147_483_647_234L;
 		System.out.println(bigLongLiteralValue);
 
-		short bigShortLiteralValue = 32767;
+
 
 		int myTotal = (myMinIntValue / 2);
 
 		byte myNewByteValue = (byte)/*this is a cast!*/ (myMinByteValue / 2);
 
 		short myNewShortValue = (short) (myMinShortValue / 2);
-    }
+
+
+	}
 }
