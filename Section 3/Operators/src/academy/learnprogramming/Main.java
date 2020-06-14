@@ -1,7 +1,5 @@
 package academy.learnprogramming;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -46,5 +44,10 @@ public class Main {
         result -= 2; //10 - 2 = 8
         System.out.println("10 - 2 = " + result);
 
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
     }
 }
