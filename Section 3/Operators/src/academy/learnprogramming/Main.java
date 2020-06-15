@@ -70,8 +70,28 @@ public class Main {
         }
 
         boolean isCar = false;
-        if (isCar == true) {
+        if (isCar) {
             System.out.println("This is not supposed to happen");
         }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+        //Coding Challenge
+        double valueOne = 20.00d;
+        double valueTwo = 80.00d;
+        double totalValue = (valueOne + valueTwo) * 100.00d;
+        System.out.println("totalValue = " + totalValue);
+        double modValue = totalValue % 40.00d;
+        System.out.println("modValue = " + modValue);
+        boolean finalValue = (modValue == 0) ? true : false;
+        System.out.println("finalValue = " + finalValue);
+        if (!finalValue) {
+            System.out.println("Got some remainder");
+        }
+        //Grade = A- (add "d"s to double values to clarify to Java what kind of value it is
     }
 }
