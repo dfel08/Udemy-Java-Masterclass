@@ -1,8 +1,47 @@
 package academy.learnprogramming;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Scanner scanner = new Scanner(System.in);
+
+        int min = Integer.MAX_VALUE; //or 0, if using first
+        int max = Integer.MIN_VALUE; //or 0, if using first
+//        boolean first = true;
+
+        while (true) {
+            System.out.println("Enter number:");
+            boolean isAnInt = scanner.hasNextInt();
+
+            if (isAnInt) {
+
+                int number = scanner.nextInt();
+
+//                if (first) {
+//                    first = false;
+//                    min = number;
+//                    max = number;
+//                }
+
+                if (number > max) {
+                    max = number;
+                }
+
+                if (number < min) {
+                    min = number;
+                }
+
+            } else {
+                break;
+            }
+
+            scanner.nextLine(); // handle input
+        }
+
+        System.out.println("Min = " + min + ", Max = " + max);
+        scanner.close();
     }
 }
