@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26446a40-b8f9-4fb0-b8e1-a3725191a089" name="Default Changelist" comment="" />
+    <list default="true" id="26446a40-b8f9-4fb0-b8e1-a3725191a089" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleCalculator/src/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleCalculator/src/SimpleCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1123" height="278" key="GridCell.Tab.0.bottom" timestamp="1592935068668">
