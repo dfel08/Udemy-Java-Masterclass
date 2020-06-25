@@ -14,9 +14,10 @@ public class Wall {
             } else if (width >= 0.0 && height < 0.0) {
                 this.width = width;
                 this.height = 0.0;
-            } else if (height < 0.0 && width < 0.0)
+            } else if (height < 0.0 && width < 0.0) {
                 this.width = 0.0;
-            this.height = 0.0;
+                this.height = 0.0;
+            }
         } else {
             this.width = width;
             this.height = height;
