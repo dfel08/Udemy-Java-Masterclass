@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f6f195b-cd75-4d8a-9db0-e807a309a28b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1f6f195b-cd75-4d8a-9db0-e807a309a28b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,9 +50,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1594046406637">
+    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1594046517325">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1022@0.23.1792.1022" timestamp="1594046406637" />
+    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1022@0.23.1792.1022" timestamp="1594046517325" />
   </component>
 </project>
