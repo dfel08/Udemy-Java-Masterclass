@@ -11,5 +11,11 @@ public class Main {
         // Add methods to fill up the toner (up to a maximum of 100%), another method to
         // simulate printing a page (which should increase the number of pages printed).
         // Decide on the scope, whether to use constructors, and anything else you think is needed.
+        Printer printer = new Printer(50, false);
+        System.out.println("Initial page count = " + printer.getPagesPrinted());
+        int pagePrinted = printer.printPages(4);
+        System.out.println("Pages printed was " + pagePrinted + " new total print count for printer = " + printer.getPagesPrinted());
+        pagePrinted = printer.printPages(2);
+        System.out.println("Pages printed was " + pagePrinted + " new total print count for printer = " + printer.getPagesPrinted());
     }
 }
