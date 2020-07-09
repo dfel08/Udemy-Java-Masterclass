@@ -42,6 +42,7 @@ public class MobilePhone {
         }
         this.myContacts.remove(foundPosition);
         System.out.println(contact.getName() + ", was deleted.");
+        return true;
     }
 
     private int findContact(Contact contact) {
@@ -61,6 +62,14 @@ public class MobilePhone {
     public String queryContact(Contact contact) {
         if (findContact(contact) >= 0) {
             return contact.getName();
+        }
+        return null;
+    }
+
+    public Contact queryContact(String name) {
+        int position = findContact(name);
+        if(position >= 0) {
+            return this.myContacts.get(position);
         }
         return null;
     }
