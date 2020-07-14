@@ -100,8 +100,16 @@ public class Main {
                     if (forward) {
                         if (listIterator.hasPrevious()) {
                             System.out.println("Now replaying " + listIterator.previous().toString());
+                            forward = false;
                         } else {
                             System.out.println("We are at the start of the list");
+                        }
+                    } else {
+                        if (listIterator.hasNext()) {
+                            System.out.println("Now replaying " + listIterator.next().toString());
+                            forward = true;
+                        } else {
+                            System.out.println("We have reached the end of the list");
                         }
                     }
                     break;
@@ -111,18 +119,29 @@ public class Main {
                 case 5:
                     printMenu();
                     break;
+                case 6:
+                    if(playList.size() > 0) {
+                        listIterator.remove();
+                        if (listIterator.hasNext()) {
+                            System.out.println("Now playing " + listIterator.next());
+                        } else if (listIterator.hasPrevious()) {
+                            System.out.println("Now playing " + listIterator.previous());
+                        }
+                    }
+                    break;
             }
         }
     }
 
     private static void printMenu() {
-        System.out.println("Available actions:\npres");
-        System.out.println("0 - to quit\n + " +
+        System.out.println("Available actions:\npress");
+        System.out.println("0 - to quit\n" +
                 "1 - to play next song\n" +
                 "2 - to play previous song\n" +
                 "3 - to replay the current song\n" +
                 "4 - list songs in the playlist\n" +
-                "5 - print available actions.");
+                "5 - print available actions.\n" +
+                "6 - delete current song from playlist");
     }
 
     private static void printList(LinkedList<Song> playList) {
