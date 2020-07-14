@@ -8,5 +8,10 @@ public class Main {
         dansPhone.powerOn();
         dansPhone.callPhone(123456);
         dansPhone.answer();
+
+        dansPhone = new MobilePhone(24565);
+        dansPhone.powerOn();
+        dansPhone.callPhone(24565);
+        dansPhone.answer();
     }
 }
