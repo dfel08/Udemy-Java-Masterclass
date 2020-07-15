@@ -32,6 +32,14 @@ public class Album {
         return null;
     }
 
+    public Song findSong(int trackNumber) {
+        int index = trackNumber - 1;
+        if((index >= 0) && (index < songs.size())) {
+            return songs.get(index);
+        }
+        return null;
+    }
+
     public boolean addToPlayList(int trackNumber, List<Song> playList) {
         int index = trackNumber - 1;
         if((index >= 0) && (index <= this.songs.size())) {
