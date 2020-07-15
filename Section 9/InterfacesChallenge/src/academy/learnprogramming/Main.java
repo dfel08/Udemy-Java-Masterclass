@@ -14,8 +14,13 @@ public class Main {
         System.out.println(dan);
         dan.setWeapon("The Foe Hammer");
         saveObject(dan);
-        loadObject(dan);
+        // loadObject(dan);
         System.out.println(dan);
+
+        ISaveable werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println(((Monster) werewolf).getStrength());
+        System.out.println(werewolf);
+        saveObject(werewolf);
     }
 
     public static ArrayList<String> readValues() {
@@ -29,7 +34,7 @@ public class Main {
                 "0 to quit");
 
         while (!quit) {
-            System.out.println("Choose and option: ");
+            System.out.println("Choose an option: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
             switch (choice) {
