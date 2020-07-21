@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package com.example.mypackage;
 
 public class Main {
 
