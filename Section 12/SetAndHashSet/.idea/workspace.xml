@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f08bc196-2786-43ce-abd8-24763e54b617" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SetAndHashSet/com/timbuchalka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SetAndHashSet/com/timbuchalka/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/HeavenlyBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,25 +88,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1597691345626">
+    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1598034645716">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1022@0.23.1792.1022" timestamp="1597691345626" />
-    <state width="1123" height="278" key="GridCell.Tab.0.bottom" timestamp="1597694945683">
+    <state x="395" y="257" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1022@0.23.1792.1022" timestamp="1598034645716" />
+    <state width="1123" height="278" key="GridCell.Tab.0.bottom" timestamp="1598033262158">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state width="1123" height="278" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1597694945683" />
-    <state width="1123" height="278" key="GridCell.Tab.0.center" timestamp="1597694945683">
+    <state width="1123" height="278" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1598033262158" />
+    <state width="1123" height="278" key="GridCell.Tab.0.center" timestamp="1598033262158">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state width="1123" height="278" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1597694945683" />
-    <state width="1123" height="278" key="GridCell.Tab.0.left" timestamp="1597694945682">
+    <state width="1123" height="278" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1598033262158" />
+    <state width="1123" height="278" key="GridCell.Tab.0.left" timestamp="1598033262157">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state width="1123" height="278" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1597694945682" />
-    <state width="1123" height="278" key="GridCell.Tab.0.right" timestamp="1597694945683">
+    <state width="1123" height="278" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1598033262157" />
+    <state width="1123" height="278" key="GridCell.Tab.0.right" timestamp="1598033262158">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
-    <state width="1123" height="278" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1597694945683" />
+    <state width="1123" height="278" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1598033262158" />
   </component>
 </project>
